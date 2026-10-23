@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "AgriSoko Pocket",
+    "slug": "agrisoko-pocket-g06",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "rw.ines.g06.agrisokopocket"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ba5502ea-2703-4b49-84e1-8ddb9cde448f"
+      }
+    },
+    "owner": "hyrene"
+  }
+}
