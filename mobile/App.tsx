@@ -1,4 +1,4 @@
-
+﻿
 import React, { useState } from "react";
 import {
   SafeAreaView,
@@ -28,7 +28,7 @@ type SearchResponse = {
   similarity: number;
 };
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "http://10.100.192.3:8000";
 
 export default function App() {
   const [query, setQuery] = useState("");
@@ -191,7 +191,7 @@ export default function App() {
         </View>
 
         <Text style={styles.footer}>
-          AgriSoko Pocket · G06 · Version 1.0.0
+          AgriSoko Pocket Â· G06 Â· Version 1.0.0
         </Text>
       </ScrollView>
     </SafeAreaView>
@@ -361,3 +361,5 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
 });
+
+
